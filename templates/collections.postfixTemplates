@@ -1,3 +1,6 @@
-.notEmpty : 判断数组是否为空
+.isNotEmpty : 判断数组是否为空
     java.util.List   →  org.apache.commons.collections.CollectionUtils.isNotEmpty($expr$)
+
+.isEmpty : 判断数组是否为空
+    java.util.List   →  org.apache.commons.collections.CollectionUtils.isEmpty($expr$)
 
