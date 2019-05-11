@@ -1,0 +1,5 @@
+.isEmpty : 判断数组字符串为空
+    java.lang.String   →  org.apache.commons.lang3.StringUtils.isBlank($expr$)
+
+.isNotEmpty : 判断数组字符串为空
+    java.lang.String   →  org.apache.commons.lang3.StringUtils.isNotBlank($expr$)
