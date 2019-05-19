@@ -3,3 +3,7 @@
 
 .isEmpty : 判断数组是否为空
     java.util.Collection   →  org.apache.commons.collections.CollectionUtils.isEmpty($expr$)
+
+.size : 长度
+    java.lang.Object   → org.apache.commons.collections.CollectionUtils.size($expr$)
+    
