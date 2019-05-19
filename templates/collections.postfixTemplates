@@ -6,4 +6,6 @@
 
 .size : 长度
     java.lang.Object   → org.apache.commons.collections.CollectionUtils.size($expr$)
-    
+
+.newArray : 创建数组
+    CLASS → List<$expr> $NAME$ = new ArrayList<>();
