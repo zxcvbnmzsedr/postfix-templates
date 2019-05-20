@@ -8,4 +8,10 @@
     java.lang.Object   → org.apache.commons.collections.CollectionUtils.size($expr$)
 
 .newArray : 创建数组
-    CLASS → List<$expr> $NAME$ = new ArrayList<>();
+    CLASS → List<$expr$> $NAME$ = new ArrayList<>();
+
+.isEmptyIf : 判断数组是否为空
+    java.util.Collection   →  if(org.apache.commons.collections.CollectionUtils.isEmpty($expr$)){$end$}
+
+.isEmptyIf : 判断数组是否为空
+    java.util.Collection   →  if(org.apache.commons.collections.CollectionUtils.isNotEmpty($expr$)){$end$}
